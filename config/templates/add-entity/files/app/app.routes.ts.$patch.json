@@ -1,0 +1,10 @@
+[
+  {
+    "before": "} from './routes'",
+    "value": "  {{ENTITY_CAPS}}_MODULE,\n"
+  },
+  {
+    "before": "\\n  { path: '\\*\\*",
+    "value": "\n  {\n    path: {{ENTITY_CAPS}}_MODULE,\n    loadChildren: () => import('./containers/{{entity-kebab}}/{{entity-kebab}}.module').then(m => m.{{EntityPascal}}Module),\n    canActivate: [AuthGuard],\n    resolve: { permissions: PermissionResolver },\n    canActivateChild: [PermissionGuard],\n  },"
+  }
+]

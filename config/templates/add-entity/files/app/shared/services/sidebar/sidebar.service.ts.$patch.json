@@ -1,0 +1,6 @@
+[
+  {
+    "before": "    ],\n  },\n];",
+    "value": "      {\n        title: '{{Entity Words}}',\n        route: routes.{{ENTITY_CAPS}}_MODULE,\n      },\n"
+  }
+]

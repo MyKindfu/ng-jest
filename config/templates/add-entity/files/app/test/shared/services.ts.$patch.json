@@ -1,0 +1,6 @@
+[
+  {
+    "before": "} from '@shared/services';",
+    "value": "  {{EntityPascal}}Service,\n"
+  }
+]

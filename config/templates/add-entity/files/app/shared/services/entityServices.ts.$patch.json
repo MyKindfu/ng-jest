@@ -1,0 +1,10 @@
+[
+  {
+    "before": "\\nexport const BASE_ENTITY_SERVICES",
+    "value": "import { {{EntityPascal}}Service } from './{{entity-kebab}}';\n"
+  },
+  {
+    "before": "];\\n\\nexport const ENTITY_SERVICES",
+    "value": "  {{EntityPascal}}Service,\n"
+  }
+]

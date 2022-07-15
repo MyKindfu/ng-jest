@@ -1,0 +1,6 @@
+[
+  {
+    "before": "\\nexport const",
+    "value": "\nexport const {{ENTITY_CAPS}}_MODULE = '{{entity-kebab}}';"
+  }
+]

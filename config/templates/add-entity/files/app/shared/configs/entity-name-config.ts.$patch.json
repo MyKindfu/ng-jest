@@ -1,0 +1,6 @@
+[
+  {
+    "before": "\\n};\n\nexport const getSingularEntityName",
+    "value": "\n  [ENTITY_TYPES.{{ENTITY_CAPS}}]: {\n    singular: '{{Entity Words}}',\n    plural: '{{Entity Words}}s',  \n  },"
+  }
+]

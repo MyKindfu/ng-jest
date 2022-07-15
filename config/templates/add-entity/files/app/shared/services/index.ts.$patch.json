@@ -1,0 +1,6 @@
+[
+  {
+    "before": "\\nexport const SERVICE_PROVIDERS",
+    "value": "export * from './{{entity-kebab}}';\n"
+  }
+]

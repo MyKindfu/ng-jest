@@ -1,0 +1,10 @@
+[
+  {
+    "before": "\\nexport const ENTITY_FORM_SERVICES",
+    "value": "import { {{EntityPascal}}FormService } from './{{entity-kebab}}/{{entity-kebab}}.form.service';\n"
+  },
+  {
+    "before": "];",
+    "value": "  {{EntityPascal}}FormService,\n"
+  }
+]

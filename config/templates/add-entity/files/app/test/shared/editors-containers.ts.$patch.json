@@ -1,0 +1,7 @@
+[
+  {
+    "after": "export {.*} from '\\.\\./.*';",
+    "before": "\\n",
+    "value": "\nexport { {{EntityPascal}}EditContainerComponent } from '@containers/{{entity-kebab}}/containers';"
+  }
+]

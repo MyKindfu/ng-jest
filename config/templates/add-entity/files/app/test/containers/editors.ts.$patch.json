@@ -1,0 +1,6 @@
+[
+  {
+    "before": "];",
+    "value": "  {\n    component: containers.{{EntityPascal}}EditContainerComponent,\n    actions: [actions.APIActions],\n    entityService: getServiceByEntityType(ENTITY_ROUTES.{{ENTITY_CAPS}}_MODULE),\n  },\n"
+  }
+]

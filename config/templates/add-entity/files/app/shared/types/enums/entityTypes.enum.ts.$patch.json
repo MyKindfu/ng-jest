@@ -1,0 +1,6 @@
+[
+  {
+    "before": "\\n}",
+    "value": "\n  {{ENTITY_CAPS}} = '{{entity-kebab}}',"
+  }
+]
